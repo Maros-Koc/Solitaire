@@ -1,0 +1,79 @@
+
+body{
+    margin:0;
+}
+input[type="range"]:disabled{
+    border: #d3a084 solid;
+    background-color: #6a3948;
+}
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 50%;
+    height: 10px;
+    background: #ab597d;
+    border-radius: 5px;
+    outline: none;
+    border: #f7cf91 solid;
+}
+
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+
+    background: #f7cf91;
+
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.controls {
+    width: 250px;
+    padding: 10px;
+    background-color: #6a3948;
+    border-color: #f7cf91 ;
+    border-width: 4px;
+    border-style: solid;
+    position: absolute;
+    bottom: 30px;
+    left: 5px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 80px;
+    border: #f7cf91 solid;
+    background-color: #ab597d ;
+    color: #f7cf91;
+}
+
+.button-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.text{
+    font-size: 18px;
+    white-space: nowrap;
+    color: #f7cf91;
+}
+
+.restart-button {
+    margin-top: 20px;
+    width: 240px;
+    height: 80px;
+}
+
+.restart-text{
+    font-size: 24px;
+    white-space: nowrap;
+    color: #f7cf91;
+}

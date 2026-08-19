@@ -1,0 +1,36 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Solitaire</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+    <div  class="controls">
+
+        <div class="button-text">
+            <p class="text">Sounds: </p>
+            <button id="muteButton" class="button">Mute</button>
+        </div>
+
+        <div class="button-text">
+            <input type="range" id="volumeSlider" class="slider" min="0" max="1" step="0.01" value="1">
+            <label id="volumeLabel" class="text">Volume: 100%</label>
+        </div>
+
+        <div class="button-text">
+            <p class="text">Music: </p>
+            <button id="muteMusic" class="button">Mute</button>
+        </div>
+
+        <div class="button-text">
+            <input type="range" id="volumeMusicSlider" class="slider" min="0" max="1" step="0.01" value="1">
+            <label id="volumeMusicLabel" class="text">Volume: 100%</label>
+        </div>
+
+    </div>
+
+    <script type="module" src="./main.js"></script>
+    </body>
+    </html>
